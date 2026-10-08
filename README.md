@@ -8,15 +8,15 @@ The goal is to design and implement a blockchain-based electronic voting system 
 
 # Objectives
 
--Allow the election administrator to register candidates
+Allow the election administrator to register candidates
 
-- Allow only eligible wallet addresses to vote.
+Allow only eligible wallet addresses to vote.
 
-- Ensure a wallet address voted only ONCE.
+Ensure a wallet address voted only ONCE.
 
-- Log voting transactions to a blockchain.
+Log voting transactions to a blockchain.
 
-- Display the election results.
+Display the election results.
 
 # Technology
 
