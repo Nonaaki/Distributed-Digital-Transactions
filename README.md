@@ -33,5 +33,10 @@ Display the election results
 - GitHub
 
 ## Project Status
+### EVM Compatibility – Shanghai
+
+During testing with Ganache, I encountered a "missing revert data" error when trying to retrieve candidate information, 
+the Solidity compiler was using the default Osaka EVM version. I changed the EVM version to Shanghai, recompiled the smart contract and deployed it again.
+After this change, I was able to retrieve candidate names and vote counts successfully.
 
  Initial setup and planning.
